@@ -1,0 +1,17 @@
+#==============================================================================#
+# This file specifies intentionally untracked files that git should ignore.
+# See: http://www.kernel.org/pub/software/scm/git/docs/gitignore.html
+#==============================================================================#
+
+# Ignore the user specified CMake presets in subproject directories.
+/*/CMakeUserPresets.json
+
+# Visual Studio built-in CMake configuration
+/CMakeSettings.json
+
+# Nested build directory
+/build*
+
+# VS2019 and VSCode config files.
+.vscode
+.vs
